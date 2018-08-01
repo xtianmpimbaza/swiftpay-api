@@ -1,0 +1,442 @@
+[
+  {
+    "merchant_name": "SPAN MEDICARE",
+    "merchant_code": "106198",
+    "m_business_type": "HOSPITAL",
+    "m_business_name": "SPAN MEDICARE",
+    "m_location": "KISAASI"
+  },
+  {
+    "merchant_name": "REACH COMMUNICATION SOLUTION LTD",
+    "merchant_code": "106282",
+    "m_business_type": "ELECTRONICS",
+    "m_business_name": "REACH COMMUNICATION SOLUTIONS LTD",
+    "m_location": "KAMPALA RD"
+  },
+  {
+    "merchant_name": "BANANA PHONE WORLD",
+    "merchant_code": "106300",
+    "m_business_type": "ELECTRONICS",
+    "m_business_name": "REACH COMMUNICATION SOLUTIONS LTD",
+    "m_location": "KAMPALA RD"
+  },
+  {
+    "merchant_name": "TURYATUNGA PETER",
+    "merchant_code": "106443",
+    "m_business_type": "HARDWARE",
+    "m_business_name": "TURYATUNGA",
+    "m_location": "LWENGO"
+  },
+  {
+    "merchant_name": "SENANA HYPER MARKET",
+    "merchant_code": "106309",
+    "m_business_type": "HYPER MARKET",
+    "m_business_name": "SENANA HYPER MARKET",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "BANANA PHONE WORLD",
+    "merchant_code": "106300",
+    "m_business_type": "PHONE WORLD",
+    "m_business_name": "BANANA PHONE WORLD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "REACH COMMUNICATIONS SOLUTIONS",
+    "merchant_code": "106282",
+    "m_business_type": "PHONE WORLD",
+    "m_business_name": "REACH COMMUNICATIONS SOLUTIONS",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "SILVER BACKS PHARMANCY",
+    "merchant_code": "105799",
+    "m_business_type": "PHARMACY",
+    "m_business_name": "SILVER BACKS PHARMANCY",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CENTURY CINEMAX",
+    "merchant_code": "105629",
+    "m_business_type": "ENTERTAINMENT",
+    "m_business_name": "CENTURY CINEMAX",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "HOTELS AND RESTAURANTS UG EXPO LTD",
+    "merchant_code": "108413",
+    "m_business_type": "EXPO ANNUAL",
+    "m_business_name": "HOTELS AND RESTAURANTS UG EXPO LTD",
+    "m_location": "KOLOLO BMK"
+  },
+  {
+    "merchant_name": "DIDA INVESTMENT CONSULT LTD",
+    "merchant_code": "108020",
+    "m_business_type": "CONSULTANT",
+    "m_business_name": "DIDA INVESTMENT CONSULT LTD",
+    "m_location": "OLD KIRA"
+  },
+  {
+    "merchant_name": "ONE HEART ONE MIND LTD",
+    "merchant_code": "107746",
+    "m_business_type": "SOLAR",
+    "m_business_name": "ONE HEART ONE MIND LTD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "ROYIKEMS INDUSTRY",
+    "merchant_code": "108271",
+    "m_business_type": "MANUFACTURER",
+    "m_business_name": "ROYIKEMS INDUSTRY LIMITED",
+    "m_location": "MUKONO"
+  },
+  {
+    "merchant_name": "CHILLIES",
+    "merchant_code": "107660",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CHILLIES RESTAURANT",
+    "m_location": "KIMATHI AVENUE"
+  },
+  {
+    "merchant_name": "CHILLIES",
+    "merchant_code": "107239",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CHILLIES RESTAURANT",
+    "m_location": "KISIMENTI"
+  },
+  {
+    "merchant_name": "CHILLIES",
+    "merchant_code": "107246",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CHILLIES RESTAURANT",
+    "m_location": "NTINDA"
+  },
+  {
+    "merchant_name": "CHILLIES",
+    "merchant_code": "107258",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CHILLIES RESTAURANT",
+    "m_location": "1'st STREET"
+  },
+  {
+    "merchant_name": "CHILLIES",
+    "merchant_code": "107257",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CHILLIES RESTAURANT",
+    "m_location": "BUGOLOBI"
+  },
+  {
+    "merchant_name": "CHILLIES",
+    "merchant_code": "107247",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CHILLIES RESTAURANT",
+    "m_location": "KAMPALA ROAD"
+  },
+  {
+    "merchant_name": "CHILLIES ",
+    "merchant_code": "107254",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CHILLIES RESTAURANT",
+    "m_location": "KASANGA"
+  },
+  {
+    "merchant_name": "SPARKLES",
+    "merchant_code": "109484",
+    "m_business_type": "SALOON",
+    "m_business_name": "sparkles",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CARGEN HOUSE",
+    "merchant_code": "109551",
+    "m_business_type": "OTHERS",
+    "m_business_name": "cargen house",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109568",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "café javas bombo road",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CARGEN HOUSE 2",
+    "merchant_code": "109552",
+    "m_business_type": "OTHERS",
+    "m_business_name": "cargen house ii",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109563",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "kira road",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109570",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "oasis mall",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109565",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "bombo rd",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109564",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "kira rd",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109547",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "nakawa1",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109571",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "victoria mall",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CAFÉ JAVAS ",
+    "merchant_code": "109569",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "namirembe rd",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "SAVERS ",
+    "merchant_code": "109451",
+    "m_business_type": "SUPERMARKET",
+    "m_business_name": "savers bombo rd",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "SAVERS ",
+    "merchant_code": "109550",
+    "m_business_type": "SUPERMARKET",
+    "m_business_name": "savers kira rd",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "SAVERS ",
+    "merchant_code": "109558",
+    "m_business_type": "SUPERMARKET",
+    "m_business_name": "savers nakawa",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CITY OIL",
+    "merchant_code": "109514",
+    "m_business_type": "PETROL STATION",
+    "m_business_name": "city oil nakawa",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CITY OIL",
+    "merchant_code": "109535",
+    "m_business_type": "PETROL STATION",
+    "m_business_name": "city oil kira rd",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CITY OIL",
+    "merchant_code": "109514",
+    "m_business_type": "PETROL STATION",
+    "m_business_name": "city oil bombo rd",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "FEEDRITE RESTAURANT SMC LIMITED",
+    "merchant_code": "109684",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "FEEDRITE RESTAURANT SMC LIMITED",
+    "m_location": "KAMWOKYA"
+  },
+  {
+    "merchant_name": "SPARKLES",
+    "merchant_code": "111704",
+    "m_business_type": "SALOON",
+    "m_business_name": "OASIS MALL",
+    "m_location": "KAMWOKYA"
+  },
+  {
+    "merchant_name": "SPARKLES",
+    "merchant_code": "111586",
+    "m_business_type": "SALOON",
+    "m_business_name": "LUGOGO",
+    "m_location": "LUGOGO"
+  },
+  {
+    "merchant_name": "NEW FRONTIERS TECHNOLOGY CONSULT LTD",
+    "merchant_code": "110138",
+    "m_business_type": "OTHERS",
+    "m_business_name": "KAMPALA",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "SHELL",
+    "merchant_code": "112038",
+    "m_business_name": "KIRA ROAD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "ABII CLINIC AND LABORATORY SERVICES LTD",
+    "merchant_code": "113950",
+    "m_business_type": "CLINIC",
+    "m_business_name": "WANDEGEYA",
+    "m_location": "WANDEGEYA"
+  },
+  {
+    "merchant_name": "SHAX",
+    "merchant_code": "113349",
+    "m_business_type": "SUPERMARKET",
+    "m_business_name": "MUYENGA",
+    "m_location": "MUYENGA"
+  },
+  {
+    "merchant_name": "SHAX",
+    "merchant_code": "113402",
+    "m_business_type": "SUPERMARKET",
+    "m_business_name": "KISIMENTI",
+    "m_location": "KISEMENTI"
+  },
+  {
+    "merchant_name": "CITY GYM",
+    "merchant_code": "113913",
+    "m_business_type": "OTHERS",
+    "m_business_name": "KAMPALA",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "UGANDA DUTY FREE SALES LTD",
+    "merchant_code": "113223",
+    "m_business_type": "OTHERS",
+    "m_business_name": "UGANDA DUTY FREE SALES LTD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "UGANDA DUTY FREE SALES LTD",
+    "merchant_code": "111955",
+    "m_business_type": "OTHERS",
+    "m_business_name": "UGANDA DUTY FREE SALES LTD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "UGANDA DUTY FREE SALES LTD",
+    "merchant_code": "111950",
+    "m_business_type": "OTHERS",
+    "m_business_name": "UGANDA DUTY FREE SALES LTD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "CRYSTAL SUITES AND APARTMENTS",
+    "merchant_code": "114144",
+    "m_business_type": "RESTAURANT",
+    "m_business_name": "CRYSTAL SUITES AND APARTMENTS ",
+    "m_location": "BUGOLOBI"
+  },
+  {
+    "merchant_name": "TOTAL",
+    "merchant_code": "114453",
+    "m_business_type": "STATION",
+    "m_business_name": "TOTAL LUZIRA",
+    "m_location": "LUZIRA"
+  },
+  {
+    "merchant_name": "TOTAL",
+    "merchant_code": "114015",
+    "m_business_type": "STATION",
+    "m_business_name": "TOTAL KYALIWAJALA",
+    "m_location": "KYALIWAJALA"
+  },
+  {
+    "merchant_name": "TOTAL",
+    "merchant_code": "114057",
+    "m_business_type": "STATION",
+    "m_business_name": "TOTAL MAGANJO",
+    "m_location": "MAGANJO"
+  },
+  {
+    "merchant_name": "TOTAL",
+    "merchant_code": "_",
+    "m_business_type": "STATION",
+    "m_business_name": "TOTAL BENKIWANUKA",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "TOTAL ",
+    "merchant_code": "_",
+    "m_business_type": "STATION",
+    "m_business_name": "TOTAL SEETA",
+    "m_location": "SEETA"
+  },
+  {
+    "merchant_name": "TOTAL",
+    "merchant_code": "_",
+    "m_business_type": "STATION",
+    "m_business_name": "TOTAL MUKONO",
+    "m_location": "MUKONO"
+  },
+  {
+    "merchant_name": "TOTAL",
+    "merchant_code": "_",
+    "m_business_type": "STATION",
+    "m_business_name": "TOTAL GGABA ROAD",
+    "m_location": "NSAMBYA"
+  },
+  {
+    "merchant_name": "TOTAL",
+    "merchant_code": "_",
+    "m_business_type": "STATION",
+    "m_business_name": "TATAL JINJA ROAD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "PAN DENTAL",
+    "merchant_code": "120242",
+    "m_business_type": "CLINIC",
+    "m_business_name": "PAN DENTAL ",
+    "m_location": "NAGURU"
+  },
+  {
+    "merchant_name": "RAMTO"
+  },
+  {
+    "merchant_name": "KEANE CONSULTANT",
+    "m_business_type": "OTHER",
+    "m_business_name": "KEANE CONSULTING LTD",
+    "m_location": "MBUYA"
+  },
+  {
+    "merchant_name": "CAPITAL OUT DOOR",
+    "m_business_type": "OTHER",
+    "m_business_name": "CAPITAL OUTDOOR ADVERTISING CO. LTD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "IPERFORMANCE",
+    "m_business_type": "OTHER",
+    "m_business_name": "IPERFORMANCE LTD",
+    "m_location": "KAMPALA"
+  },
+  {
+    "merchant_name": "PAN DENTAL",
+    "merchant_code": "119673",
+    "m_business_type": "CLINIC",
+    "m_business_name": "PAN DENTAL ",
+    "m_location": "BUGANDA ROAD"
+  }
+]
