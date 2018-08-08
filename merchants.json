@@ -438,5 +438,13 @@
     "m_business_type": "CLINIC",
     "m_business_name": "PAN DENTAL ",
     "m_location": "BUGANDA ROAD"
+  },
+  {
+    "merchant_name": "REEDFIELD CATERING SERVICE LIMITED",
+    "merchant_code": "120076",
+    "m_business_type": "MEAL SERVICES",
+    "m_business_name": "REEDFIELD CATERING",
+    "m_location": "MTN HQ BAT"
   }
+
 ]
