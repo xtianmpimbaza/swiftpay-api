@@ -6,6 +6,18 @@ var nodemailer = require('nodemailer');
 var request = require("request");
 var htmlToText = require('html-to-text');
 
+var mysql      = require('mysql');
+var connection = mysql.createConnection({
+    host     : 'localhost',
+    user     : 'root',
+    password : '',
+    database : 'swiftpay'
+});
+
+connection.connect();
+
+
+
 // import fetch from 'node-fetch';
 app.use(bodyParser.json());
 
@@ -55,8 +67,15 @@ app.get('/', function (req, res) {
 //------------------------------------------rest api to get schedules
 app.get('/getmerchants', function (req, res) {
 
-    var merchants = require('./merchants.json');
-    res.send(merchants.reverse());
+    // var merchants = require('./merchants.json');
+    // res.send(merchants.reverse());
+    connection.query('SELECT * from merchants', function (error, results, fields) {
+        if (error) throw error;
+        // console.log('The solution is: ', results[0].solution);
+        res.send(results);
+
+    });
+    connection.end();
 });
 
 
