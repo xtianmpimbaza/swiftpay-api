@@ -11,6 +11,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
+    // password: '',
     password: 'root#123',
     database: 'swiftpay'
 });
@@ -30,26 +31,7 @@ app.get('/', function (req, res) {
 
 //------------------------------------------ login
 // app.post('/login', function (req, res) {
-//
-//     var valid = false;
-//
-//     // var url = 'https://adin.ug/abc2018/api/christian.php?auth=246fb595064db95e76bbdd828cf7207662a6baaf&table=delegates';
-//
-//     request({
-//         url: url,
-//         json: true
-//     }, function (error, response, body) {
-//
-//         if (!error && response.statusCode === 200) {
-//             body.forEach(function (item) {
-//                 if (req.body.email.match(item.email) && req.body.ticket.match(item.ticket)) {
-//                     valid = true;
-//                 }
-//             });
-//
-//             res.send({feedback: valid});
-//         }
-//     })
+
 // });
 
 //------------------------------------------rest api to get schedules
@@ -64,13 +46,14 @@ app.get('/getmerchants', function (req, res) {
 app.post('/savereason', function (req, res) {
     // res.send([{name: req.body.reason}]);
     connection.query("INSERT INTO reason (reason) VALUES ('" + req.body.reason + "')", function (error, results, fields) {
-        // if (error) throw error;
-        if (error) {
+        if (error) throw error;
+        if (!error) throw results;
+        // if (error) {
             // console.log(error);
-            res.send([{feedback: 'failed'}]);
-        } else {
-            res.send([{feedback: 'success'}]);
-        }
+            // res.send([{error: 'failed'}]);
+        // } else {
+        //     res.send([{feedback: 'success'}]);
+        // }
     });
     connection.end();
 });
