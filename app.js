@@ -6,33 +6,21 @@ var nodemailer = require('nodemailer');
 var request = require("request");
 var htmlToText = require('html-to-text');
 
-var mysql      = require('mysql');
+var mysql = require('mysql');
+
 var connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'root',
-    password : 'root#123',
-    database : 'swiftpay'
+    host: 'localhost',
+    user: 'root',
+    password: 'root#123',
+    database: 'swiftpay'
 });
 
 connection.connect();
-
-
 
 // import fetch from 'node-fetch';
 app.use(bodyParser.json());
 
 app.use(cors())
-
-var transporter = nodemailer.createTransport({
-    service: 'Gmail',
-    auth: {
-        user: 'xtianm4@gmail.com',
-        pass: ''
-    },
-    tls: {
-        rejectUnauthorized: false
-    }
-});
 
 // Routes
 app.get('/', function (req, res) {
@@ -67,40 +55,24 @@ app.get('/', function (req, res) {
 //------------------------------------------rest api to get schedules
 app.get('/getmerchants', function (req, res) {
 
-    // var merchants = require('./merchants.json');
-    // res.send(merchants.reverse());
     connection.query('SELECT * from merchants', function (error, results, fields) {
         if (error) throw error;
-        // console.log('The solution is: ', results[0].solution);
         res.send(results);
-
     });
     connection.end();
 });
-
-
-app.post('/sendmail', function (req, res) {
-
-    console.log(req.body);
-
-    var mailOptions = {
-        from: req.body.email_from,
-        to: req.body.email_to,
-        subject: 'Swiftpay feedback',
-        text: req.body.no_html,
-        html: "<p>" + req.body.no_html + "</p>"
-    };
-
-    transporter.sendMail(mailOptions, function (error, info) {
+app.post('/savereason', function (req, res) {
+    // res.send([{name: req.body.reason}]);
+    connection.query("INSERT INTO reason (reason) VALUES ('" + req.body.reason + "')", function (error, results, fields) {
+        // if (error) throw error;
         if (error) {
-            console.log(error);
-            res.json({feedback: 'failed'});
+            // console.log(error);
+            res.send([{feedback: 'failed'}]);
         } else {
-            // console.log('Email sent: ' + info.response);
-            res.json({feedback: 'success'});
+            res.send([{feedback: 'success'}]);
         }
     });
-
+    connection.end();
 });
 
 // Listen
