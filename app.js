@@ -7,18 +7,18 @@ var request = require("request");
 var htmlToText = require('html-to-text');
 
 var mysql = require('mysql');
-var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'swiftpay'
-});
 // var connection = mysql.createConnection({
-//     host     : 'localhost',
-//     user     : 'root',
-//     password : 'root#123',
-//     database : 'swiftpay'
+//     host: 'localhost',
+//     user: 'root',
+//     password: '',
+//     database: 'swiftpay'
 // });
+var connection = mysql.createConnection({
+    host     : 'localhost',
+    user     : 'root',
+    password : 'root#123',
+    database : 'swiftpay'
+});
 
 connection.connect();
 
